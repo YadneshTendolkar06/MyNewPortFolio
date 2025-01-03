@@ -1,0 +1,41 @@
+{/* <div ref={targetRef} className="h-[300vh] relative flex bg-amber-100 ">
+  <div className='h-screen w-full sticky flex top-0 bg-purple-400 '>
+
+
+    <motion.div style={{ x:x }} className='bg-[#efd593] w-1/2 h-full flex flex-col items-center justify-center gap-2 '>
+    <h1 className='text-6xl font-bold text-[#042f1a]'>Yadnesh Tendolkar</h1>
+  <h1 className='text-4xl font-bold mb-10'>यज्ञेश तेंडोलकर</h1>
+  <h1 className='text-4xl font-bold '>Frontend Developer</h1>
+  <button className="bg-yellow-300 text-black font-semibold
+  px-8 py-3 rounded-md shadow-[6px_6px_0px_0px_black] hover:translate-x-1 hover:translate-y-1 transition-transform uppercase text-lg">
+  Resume
+</button>
+  </motion.div>
+    <motion.div style={{ x:x2 }} className='bg-[#fb923c] w-1/2 h-full flex items-center justify-center'>
+    <div className='border-black border-4 w-max shadow-[20px_20px_0px_0px_black] bg-amber-50'>
+    <img src={Img} alt="" />
+    </div>
+    </motion.div>
+
+    <motion.div style={{ x:x3 }}  className='bg-red-300 w-1/2 h-full flex items-center justify-center '>
+    </motion.div>
+
+
+  </div>
+
+
+</div> */}
+
+
+// bg-gradient-to-b from-black to-gray-900
+//  text-white
+
+// const targetRef = useRef(null);
+//   const { scrollYProgress } = useScroll({
+//     target: targetRef,
+//     offset: [0,3]
+//   });
+
+//   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+//   const x2 = useTransform(scrollYProgress, [0, 1], ["1%", "-202%"]);
+//   const x3 = useTransform(scrollYProgress, [0, 1], ["1%", "-300%"]);

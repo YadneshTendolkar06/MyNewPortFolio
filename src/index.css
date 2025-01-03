@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: MyTextFont;
+    src: url('./font/PaytoneOne-Regular.ttf');
+}
+
+div{
+    font-family: MyTextFont;
+}
+
+/* Hide scrollbar globally */
+html, body {
+    overflow: hidden; /* Prevents the scrollbar from appearing */
+  }
+
+  ::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome, Safari, etc. */
+  }
+
+  body {
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+  }
+
