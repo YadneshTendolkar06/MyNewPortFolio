@@ -4,7 +4,6 @@ import Footer from './Footer';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 function State() {
-    const url = 'https://api.github.com/users/YadneshTendolkar06';
 
     const [gitData, setGitData] = useState({})
     useEffect(()=>{
@@ -15,7 +14,6 @@ function State() {
         })
         .then((response) => response.json())
         .then((data) =>{
-            console.log(data)
             setGitData(data)
         })
         .catch((err)=> console.log("error", err))

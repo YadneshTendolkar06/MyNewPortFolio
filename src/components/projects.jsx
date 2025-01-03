@@ -7,6 +7,7 @@ import StudentMgt2 from '../assets/StudentMgt2.png'
 import portfolioImg from '../assets/portfolioImg.png'
 import portfolioVid from '../../public/portfolioVid.mp4'
 import ezyMob from '../assets/ezyMob.png'
+import shopEasy from '../../public/shopeasy.mp4'
 
 function Projects() {
     return (
@@ -48,7 +49,7 @@ function Projects() {
       <div className='md:w-[420px] w-[350px] backdrop-blur-xl rounded-xl bg-[#013F4D]/75 h-[500px] justify-center items-center relative left-1 md:left-60 xl:left-[120px] 2xl:left-[320px] top-40 md:top-52 p-5'>
         <div className='w-full h-full flex flex-col gap-2'>
           <div className='bg-green-300 w-full overflow-hidden h-52 rounded-xl'>
-            <video src='/public/shopeasy.mp4' autoPlay loop muted className="w-full h-full object-cover">
+            <video src={shopEasy} autoPlay loop muted className="w-full h-full object-cover">
             </video>
           </div>
           <div className='text-[#e1dfea]'>
