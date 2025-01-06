@@ -13,7 +13,7 @@ function Projects() {
     return (
         <>
         <div className='md:flex'>
-        <div className='md:w-[420px] w-[350px] rounded-xl backdrop-blur-xl bg-[#9b463a] h-[500px] justify-center items-center relative left-1 md:left-10 xl:left-[50px] 2xl:left-[130px] top-10 p-5 md:mx-0 mx-1'>
+        <div className='md:w-[420px] w-[350px] rounded-xl backdrop-blur-xl bg-[#9b463a] h-[500px] justify-center items-center relative left-1 md:left-10 xl:left-[50px] 2xl:left-[70px] top-10 p-5 md:mx-0 mx-1'>
         <div className='w-full h-full flex gap-8'>
           <div className='bg-green-300 w-full h-80 overflow-hidden rounded-t-xl'>
             <img src={StudentMgt} className='w-full h-full object-cover object-left left-11' alt="" />
@@ -25,7 +25,7 @@ function Projects() {
           </div>
       </div>
 
-      <div className='md:w-[420px] w-[350px] rounded-xl backdrop-blur-xl bg-[#484881] h-[500px] justify-center items-center relative left-1 md:left-36 xl:left-[80px] 2xl:left-[230px] top-24 md:top-32 p-5 md:mx-0 mx-1'>
+      <div className='md:w-[420px] w-[350px] rounded-xl backdrop-blur-xl bg-[#484881] h-[500px] justify-center items-center relative left-1 md:left-36 xl:left-[80px] 2xl:left-[130px] top-24 md:top-32 p-5 md:mx-0 mx-1'>
         <div className=' w-full h-full flex gap-8'>
           <div className='bg-green-300 w-44 h-80 rounded-xl'>
             <img src={ezyMob} className='h-full w-full object-cover' />
@@ -46,7 +46,7 @@ function Projects() {
           </div>
       </div>
 
-      <div className='md:w-[420px] w-[350px] backdrop-blur-xl rounded-xl bg-[#013F4D]/75 h-[500px] justify-center items-center relative left-1 md:left-60 xl:left-[120px] 2xl:left-[320px] top-40 md:top-52 p-5'>
+      <div className='md:w-[420px] w-[350px] backdrop-blur-xl rounded-xl bg-[#013F4D]/75 h-[500px] justify-center items-center relative left-1 md:left-60 xl:left-[120px] 2xl:left-[200px] top-40 md:top-52 p-5'>
         <div className='w-full h-full flex flex-col gap-2'>
           <div className='bg-green-300 w-full overflow-hidden h-52 rounded-xl'>
             <video src={shopEasy} autoPlay loop muted className="w-full h-full object-cover">

@@ -28,7 +28,7 @@ function State() {
             <ParallaxLayer offset={0}>
             <div className='h-screen w-full bg-[#1E1E1E] px-4 md:px-96 2xl:px-[500px] pt-36'>
             <h1 className='text-5xl md:text-6xl text-center text-[#e1dfea]'>Statistics</h1>
-            <div className='flex justify-center flex-wrap gap-4 md:gap-16 mt-12 md:mt-20'>
+            <div className='flex justify-center flex-wrap gap-4 md:gap-14 mt-12 md:mt-20'>
 
             <div className='text-5xl md:text-6xl h-32 md:w-60 font-bold bg-[#1E1E1E] border-2 text-[#e1dfea] rounded-xl p-5'>
                 {
@@ -63,7 +63,7 @@ function State() {
             </div>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={0.8} style={{zIndex: 10}}>
+            <ParallaxLayer offset={0.7} style={{zIndex: 10}}>
                 <div className='bg-[#171717] h-96 w-full flex justify-center md:mt-44 2xl:mt-40 mt-32'>
                     <Footer />
                 </div>

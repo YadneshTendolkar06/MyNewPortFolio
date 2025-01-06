@@ -28,7 +28,7 @@ function About(){
             </ParallaxLayer>
 
             <ParallaxLayer className='flex justify-center' sticky={{start: 0, end: 4}} style={-2}>
-            <div className='h-60 w-60 md:h-72 md:w-72 border-4 border-[#ecf4e5] shadow-[6px_6px_0px_0px_#ecf4e5] rounded-xl bg-orange-100 object-contain overflow-hidden absolute left-16 md:left-[240px] 2xl:left-[700px] xl:left-[570px] lg:left-[1000px] top-28'>
+            <div className='h-60 w-60 md:h-72 md:w-72 border-4 border-[#ecf4e5] shadow-[6px_6px_0px_0px_#ecf4e5] rounded-xl bg-orange-100 object-contain overflow-hidden absolute left-16 md:left-[240px] 2xl:left-[620px] xl:left-[570px] lg:left-[1000px] top-28'>
                 <img className='' src={pp2} />
                 </div>
             </ParallaxLayer>

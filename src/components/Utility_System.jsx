@@ -44,7 +44,7 @@ function Utility_System() {
     </div>
     </ParallaxLayer>
 
-    <ParallaxLayer offset={1.9} style={{zIndex: -5}}>
+    <ParallaxLayer offset={1.8} style={{zIndex: -5}}>
         <div className='bg-[#171717] h-96 w-full flex justify-center mt-[280px] md:mt-16'>
             <Footer />
         </div>

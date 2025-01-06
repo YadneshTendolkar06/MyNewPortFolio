@@ -23,7 +23,7 @@ function Footer() {
         </div>
     </div>
 
-    <h2 className=' md:text-xl text-[#e1dfea] absolute top-56 md:top-72 left-5 md:left-[510px] xl:left-[450px] 2xl:left-[600px]'>Modified & design by Yadnesh Tendolkar @ 2025</h2>
+    <h2 className=' md:text-xl text-[#e1dfea] absolute top-56 md:top-72 2xl:top-60 left-5 md:left-[510px] xl:left-[450px] 2xl:left-[600px]'>Modified & design by Yadnesh Tendolkar @ 2025</h2>
 
     <Outlet />
     </div>

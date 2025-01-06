@@ -46,35 +46,35 @@ function App() {
       </ParallaxLayer>
 
       <ParallaxLayer offset={1.3} style={{zIndex: 2}} speed={0.3}>
-      <div className='bg-[#1E1E1E]/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center left-2 md:left-[200px] 2xl:left-[320px] py-7'>
+      <div className='bg-[#1E1E1E]/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center left-2 md:left-[200px] 2xl:left-[230px] py-7'>
     <IoLogoJavascript className='text-yellow-300 text-9xl absolute' />
     <h3 className='top-44 absolute uppercase text-lg'>JavaScript</h3>
       </div>
       </ParallaxLayer>
 
       <ParallaxLayer offset={1.7} style={{zIndex: 2}} speed={0.6}>
-      <div className='bg-[#1E1E1E]/30 rounded-lg border border-white/20 backdrop-blur-sm  h-64 w-52 relative flex justify-center left-[140px] top-20 md:top-0 md:left-[700px] 2xl:left-[760px] xl:left-[650px] py-7'>
+      <div className='bg-[#1E1E1E]/30 rounded-lg border border-white/20 backdrop-blur-sm  h-64 w-52 relative flex justify-center left-[140px] top-20 md:top-0 md:left-[700px] 2xl:left-[680px] xl:left-[650px] py-7'>
     <FaReact className='text-blue-600 text-9xl absolute ' />
     <h3 className='top-44 absolute uppercase text-lg'>React JS</h3>
       </div>
       </ParallaxLayer>
 
       <ParallaxLayer offset={1.3} style={{zIndex: 2}} speed={0.2}>
-        <div className='bg-[#1E1E1E]/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center left-[10px] top-[550px] md:top-0 md:left-[1200px] xl:left-[1050px] 2xl:left-[1200px] py-7'>
+        <div className='bg-[#1E1E1E]/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center left-[10px] top-[550px] md:top-0 md:left-[1200px] xl:left-[1050px] 2xl:left-[1100px] py-7'>
     <FaHtml5 className='text-orange-600 text-9xl absolute' />
     <h3 className='top-44 absolute uppercase text-lg'>HTML5</h3>
         </div>
       </ParallaxLayer>
 
       <ParallaxLayer offset={2} style={{zIndex: 2}} speed={0.6}>
-      <div className='bg-blue-500/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center left-[140px] md:left-[300px] xl:left-[200px] 2xl:left-[350px] top-60 md:top-0 py-7'>
+      <div className='bg-blue-500/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center left-[140px] md:left-[300px] xl:left-[200px] 2xl:left-[250px] top-60 md:top-0 py-7'>
       <RiTailwindCssFill className='text-blue-500 text-9xl absolute' />
       <h3 className='top-44 absolute uppercase text-lg'>Tailwind CSS</h3>
       </div>
       </ParallaxLayer>
 
       <ParallaxLayer offset={2} style={{zIndex: 2}} speed={.3}>
-      <div className='bg-blue-500/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center top-[530px] md:top-0 left-2 md:left-[1050px] xl:left-[1040px] 2xl:left-[1200px] py-7'>
+      <div className='bg-blue-500/30 rounded-lg border border-white/20 backdrop-blur-sm h-64 w-52 relative flex justify-center top-[530px] md:top-0 left-2 md:left-[1050px] xl:left-[1040px] 2xl:left-[1110px] py-7'>
       <FaGitAlt className='text-red-500 text-9xl absolute' />
       <h3 className='top-44 absolute uppercase text-lg'>git</h3>
       </div>
